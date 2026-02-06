@@ -65,4 +65,18 @@ yersinia -I
 8. Y en Wireshark igualmente se puede visualizar la cantidad colosal de paquetes que se están enviando
 
 
+9. Una vez realizado el ataque con la herramienta, se para presionando X, luego se abre el menú de ataques otra vez en DHCP y esta vez se selecciona la opción 2 que es para que el tráfico nuevo DHCP se redirija a la máquina actual
+10. En este menú se selecciona lo siguiente:
+- Server ID: IP de la máquina atacante (la que se está usando)
+- Start IP: Donde comienza el rango de IPs en el pool
+- End IP: Última IP del pool
+- Lease Time (secs): Cada cuanto tiempo se puede solicitar una nueva IP
+- Renew: Obtener una nueva IP
+- Subnet Mask
+- Router: Puerta de entrada para víctimas (IP del atacante)
+- DNS Server: Resolución DNS (IP de un DNS de confianza)
+- Domain: Nombre cualquiera para identificar servidor
+11. Se crea el servidor, la imagen a continuación es un ejemplo de datos del servidor:
+
+
 
