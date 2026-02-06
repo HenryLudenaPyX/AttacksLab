@@ -75,8 +75,10 @@ Switch(config-if)# switchport port-security violation shutdown
 ```
 ---
 ## Validación y Resultados
+
 Comportamiento Esperado
-Al lanzar el ataque macof (o conectar un Hub con múltiples PCs) contra el puerto protegido:
-El Switch detectará que ingresan más de 1 dirección MAC por el puerto Fa0/1.
-Bloqueará inmediatamente la interfaz, cambiando su estado a Error-Disabled (LED apagado/rojo).
-Se cortará la conexión del atacante, protegiendo la red.
+
+1. Al lanzar el ataque macof (o conectar un Hub con múltiples PCs) contra el puerto protegido:
+2. El Switch detectará que ingresan más de 1 dirección MAC por el puerto Fa0/1.
+3. Bloqueará inmediatamente la interfaz, cambiando su estado a Error-Disabled (LED apagado/rojo).
+4. Se cortará la conexión del atacante, protegiendo la red.
