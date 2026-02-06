@@ -61,5 +61,8 @@ yersinia -I
 5. Se escoge el sending DISCOVER packet (modelo DORA de DHCP) que es la opción 1 (presionar 1)
 6. En la herramienta de Yersinia se puede visualizar la cantidad de paquetes que se envían
 
-8. 
+
+8. Y en Wireshark igualmente se puede visualizar la cantidad colosal de paquetes que se están enviando
+
+
 
