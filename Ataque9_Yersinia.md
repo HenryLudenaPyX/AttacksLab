@@ -48,3 +48,18 @@ make
 make install
 ```
 ## Procedimiento
+1. Iniciar la interfaz de Yersinia (con permisos sudo)
+``` bash
+yersinia -I
+```
+2. En la interfaz para pasar a DHCP se presiona f2
+3. Luego, se presiona x para ver los ataques
+4. Antes de ejecutar el ataque, se abre Wireshark para observar como funciona el envío de paquetes DHCP, la interfaz es eth0 (por defecto)  
+4.1. Dentro de Wireshark, filtro por "dhcp" para evitar cualquier ruido que no sea DHCP
+<img width="1919" height="892" alt="image" src="https://github.com/user-attachments/assets/9ec98bb6-7818-4e71-84a3-62b5a275f936" />
+
+5. Se escoge el sending DISCOVER packet (modelo DORA de DHCP) que es la opción 1 (presionar 1)
+6. En la herramienta de Yersinia se puede visualizar la cantidad de paquetes que se envían
+
+8. 
+
