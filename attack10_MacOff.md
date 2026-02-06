@@ -74,7 +74,7 @@ Switch(config-if)# switchport port-security mac-address sticky
 Switch(config-if)# switchport port-security violation shutdown
 ```
 ---
-Validación y Resultados
+## Validación y Resultados
 Comportamiento Esperado
 Al lanzar el ataque macof (o conectar un Hub con múltiples PCs) contra el puerto protegido:
 El Switch detectará que ingresan más de 1 dirección MAC por el puerto Fa0/1.
